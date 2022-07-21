@@ -1,0 +1,5 @@
+# Ignore environment variable scripts
+set_env_var.sh
+
+# Ignore the checkpoit files
+*checkpoint*
