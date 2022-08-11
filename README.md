@@ -10,3 +10,9 @@ Upon the SO post above, it is because `export` runs the variable setting command
 
 Solution:
 Use `source` or `.` to run the script, instead of `bash`.
+
+## Difference between `%` ipython magic command vs `!`
+- `!` creates a terminal subprocess
+
+## Env variables not loaded through bash from terminal not showing up in Jupyter Notebook
+- This might be that the terminal and ipython are running on separate processes.
